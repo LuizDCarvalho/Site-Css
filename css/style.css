@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@200;300&display=swap');
+*{
+    box-sizing: border-box;
+    background:linear-gradient();
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo h1{
+    font-family: 'Orbitron', sans-serif;
+    color: darkblue;
+    margin-left: 10%;
+    font-size: 34px;
+}
+
+.logo{
+    flex: 20%;
+    text-align: left;
+ 
+}
+
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: red;
+    border-top: 4px solid darkblue;
+}
+
+#botao{
+    background: darkblue;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+} 
+
+#botao:hover{
+    border: none;
+    background: darkorchid;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: white;
+    padding-top: 100px;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline p{
+    text-align: left;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: darkblue;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    
+    text-align: center;
+
+}
+
+.contact-btn{
+    border: 1px solid black;
+    display: inline-block;
+    background: purple;
+    text-decoration: none;
+    padding: 20px;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.contact-btn:hover{
+     background: darkblue;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background: purple;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: block;
+}
+.card h3{
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.texto-oculto{
+    display: none;
+
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image:linear-gradient(180deg, #180f4a, #090422, black);
+    color: white;
+    border-top: 5px solid purple;
+    text-align: center;
+}
+
+
+
+.frase{
+    font-size: 34px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+    height: 100px;
+    background: green;
+    border: 5px solid white;
+    border-radius: 49px 49px 49px 8px ;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+   
+}
+
+
+.whats a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
